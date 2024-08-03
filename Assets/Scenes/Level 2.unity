@@ -216,13 +216,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 1634388319}
     m_Modifications:
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
+      propertyPath: _maxSpawnDelay
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
+      propertyPath: _minSpawnDelay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _attackerPrefabs.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _attackerPrefabs.Array.data[0]
       value: 
-      objectReference: {fileID: 6057427685223626502, guid: 0356f0eae4ed26c42bae5012e41efd91, type: 3}
+      objectReference: {fileID: 7073141467712321408, guid: 0356f0eae4ed26c42bae5012e41efd91, type: 3}
     - target: {fileID: 1059803930004340583, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: m_Name
       value: Spawner 2
@@ -1436,6 +1444,10 @@ PrefabInstance:
     - target: {fileID: 8939864076462909570, guid: 975b9a09b3032e741aa2037471bd911a, type: 3}
       propertyPath: _levelTime
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939864076462909570, guid: 975b9a09b3032e741aa2037471bd911a, type: 3}
+      propertyPath: _timerStartDelay
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

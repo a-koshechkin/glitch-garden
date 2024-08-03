@@ -136,11 +136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _maxSpawnDelay
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _minSpawnDelay
-      value: 5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _attackerPrefabs.Array.size
@@ -216,13 +216,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 1634388319}
     m_Modifications:
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
+      propertyPath: _maxSpawnDelay
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
+      propertyPath: _minSpawnDelay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _attackerPrefabs.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _attackerPrefabs.Array.data[0]
       value: 
-      objectReference: {fileID: 6057427685223626502, guid: 0356f0eae4ed26c42bae5012e41efd91, type: 3}
+      objectReference: {fileID: 7073141467712321408, guid: 0356f0eae4ed26c42bae5012e41efd91, type: 3}
     - target: {fileID: 1059803930004340583, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: m_Name
       value: Spawner 2
@@ -468,11 +476,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _maxSpawnDelay
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _minSpawnDelay
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _attackerPrefabs.Array.size
@@ -916,7 +924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5055133403685228109, guid: 7c2ca12a2fe792d438a07553e67c54ea, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5989259627276821484, guid: 7c2ca12a2fe792d438a07553e67c54ea, type: 3}
       propertyPath: m_Enabled
@@ -928,15 +936,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6393154015867935495, guid: 7c2ca12a2fe792d438a07553e67c54ea, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7476270164016554752, guid: 7c2ca12a2fe792d438a07553e67c54ea, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8359622952671343952, guid: 7c2ca12a2fe792d438a07553e67c54ea, type: 3}
+      propertyPath: _defenderPrefab
+      value: 
+      objectReference: {fileID: 8533513707878594514, guid: 35874d0fb51b22444af98444dd4f781b, type: 3}
     - target: {fileID: 8608763961681460295, guid: 7c2ca12a2fe792d438a07553e67c54ea, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1071,11 +1083,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _maxSpawnDelay
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _minSpawnDelay
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1008736840042777515, guid: 9375ba688d50b144eba6dfdf28c1a464, type: 3}
       propertyPath: _attackerPrefabs.Array.size
@@ -1409,6 +1421,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7608183529474157795, guid: 975b9a09b3032e741aa2037471bd911a, type: 3}
+      propertyPath: _stars
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 8112237775826210778, guid: 975b9a09b3032e741aa2037471bd911a, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1427,11 +1443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939864076462909570, guid: 975b9a09b3032e741aa2037471bd911a, type: 3}
       propertyPath: _levelTime
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8939864076462909570, guid: 975b9a09b3032e741aa2037471bd911a, type: 3}
-      propertyPath: _timerStartDelay
-      value: 1
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

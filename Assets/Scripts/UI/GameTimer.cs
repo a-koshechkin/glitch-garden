@@ -13,6 +13,12 @@ public class GameTimer : MonoBehaviour
 
     #endregion
 
+    #region Properties
+
+    public float TimerStartDelay => _timerStartDelay;
+
+    #endregion
+
     #region MonoBehaviour
 
     private void Start()
